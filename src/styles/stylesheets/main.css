@@ -1,0 +1,48 @@
+/* line 1, ../sass/_common.scss */
+.productDiv > img {
+  width: 95%;
+  height: 180px;
+}
+
+/* line 6, ../sass/_common.scss */
+.productDiv {
+  text-align: center;
+  height: 350px;
+}
+
+/*.productImage{
+  width:95%
+}*/
+/* line 15, ../sass/_common.scss */
+.productImage:hover {
+  width: 100%;
+}
+
+/* line 19, ../sass/_common.scss */
+.cartDiv {
+  height: 300px;
+}
+
+/* line 23, ../sass/_common.scss */
+.cartImage {
+  height: 100px;
+}
+
+/* line 27, ../sass/_common.scss */
+.cartImage:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+/* line 34, ../sass/_common.scss */
+#productFrom {
+  border: 1px solid #c8c8c8;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 9px 4px;
+  background: rgba(200, 200, 200, 0.1);
+  border-radius: 4px;
+  margin: 7% 20%;
+}

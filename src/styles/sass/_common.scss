@@ -1,0 +1,40 @@
+.productDiv > img{
+  width: 95%;
+  height:180px;
+}
+
+.productDiv{
+  text-align:center;
+  height: 350px;
+}
+
+/*.productImage{
+  width:95%
+}*/
+
+.productImage:hover {
+  width:100%
+}
+
+.cartDiv{
+  height: 300px;
+}
+
+.cartImage {
+  height:100px;
+}
+
+.cartImage:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+#productFrom{
+   border: 1px solid #c8c8c8;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 9px 4px;
+  background: rgba(200, 200, 200, 0.1);
+  border-radius: 4px;
+  margin: 7% 20%;
+}
